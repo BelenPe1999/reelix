@@ -245,34 +245,62 @@ a {
 
 .mainau {
   padding-top: 10vh;
-  height: 90vh;
+  min-height: 90vh;
 }
-.arribarriba {
-  background-color: gray;
-}
-.arriba {
+ .arriba {
+  display: flex;
+  min-height: 41vh;
+ }
+.text3 {
   display: flex;
   align-items: center;
-  background-color: lightblue;
+  width: 10%;
+  padding-left: 20px;
 }
-.text3 {
-  font-size: 25px;
-  background-color: #fad9a6;
-  padding-top: 10px;
+ .text3 h2 {
+  writing-mode: vertical-lr;
+  display: inline;
+  transform: rotate(180deg);
+  word-spacing: 2px;
+  font-size: 37px;
+ }
+ .cry {
+  width: 38.5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+ .cri {
+  text-align: center;
+  padding-right: 5rem;
+  font-size: 18px;
+ }
+ .arriba img {
+  height: 328px;
+  object-fit: cover;
+  width: 50%;
+ }
+.abajolittle {
+  display: flex;
+  min-height: 41.2vh;
 }
-.cry {
+.tag {
   width: 50%;
   display: flex;
   justify-content: center;
+  background-color: thistle;
+  align-items: center;
 }
-.cri  {
+.about2 {
   width: 50%;
   text-align: center;
   font-size: 18px;
 }
-.arriba img {
+.titi {
   width: 50%;
-}
-.abajolittle {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 37px;
+  background-color: beige;
 }
