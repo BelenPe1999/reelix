@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.up {
+    background-color: #004aad;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px;
+    position: fixed;
+    width: 100%;
+}
+.logo img {
+    height: 70px;
+}
+.menu1 {
+    display: inline-block;
+    padding: 0px 20px;
+    font-family: "Marcellus", serif;
+    font-size: 20px;
+    
+}
+.menu1:hover {
+    color: white;
+    transition: 0.7s;
+}
+.firstc {
+    padding-top: 10vh;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 90vh;
+    background-image: linear-gradient(to top, #330867 0%, #004aad 90%);
+}
+.text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Marcellus", serif;
+    font-size: 20px;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 1rem;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.bigimg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+.bigimg img {
+    height: 500px;
+    width: 90%;
+    box-shadow: 16px -13px 11px -1px rgba(0,0,0,0.29);
+    border-radius: 15px;
+}
+.secondc {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2rem;
+}
+.subtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Marcellus", serif;
+    font-size: 30px;
+}
+.info {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+.tinyinfo {
+    width: 320px;
+    font-family: "Marcellus", serif;
+}
+.title1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    font-size: 30px;
+}
+.explain {
+    font-size: 18px;
+}
+.thirdc {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 3rem;
+    background-color: #fad9a6;
+    height: 100vh;
+}
+.infophoto {
+    font-family: "Marcellus", serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 3rem;
+}
+.title2 {
+    font-size: 45px;
+}
+.littleinfo {
+    font-size: 23px;
+}
+
+.container {
+    height: 500px;
+    width: 100%;
+    border-radius: 1em;
+    overflow: hidden;
+    box-shadow: 0 10px 20px black;
+    font-family: sans-serif;
+  }
+  
+  .palette {
+    display: flex;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .color {
+    height: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: flex 0.1s linear;
+  }
+  
+  .color:nth-child(1) {
+    background-image: url(img/bftp.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .color:nth-child(2) {
+    background-image: url(img/coraline.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .color:nth-child(3) {
+    background-image: url(img/shutter.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .color:nth-child(4) {
+    background-image: url(img/descendants.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .color:nth-child(5) {
+    background-image: url(img/lorax.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .color:nth-child(6) {
+    background-image: url(img/mygirl.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .color:nth-child(7) {
+    background-image: url(img/crybaby.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .color:nth-child(8) {
+    background-image: url(img/hungergame.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .color:nth-child(9) {
+    background-image: url(img/yourname.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .color:hover {
+    flex: 3;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  
+  .color:hover span {
+    opacity: 1;
+  }
+
+.pie {
+    background-color: #913c21;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Marcellus", serif;
+    padding: 15px;
+}
+.pieizq {
+    display: flex;
+    align-items: center;
+    padding-left: 3rem;
+    flex-direction: column;
+}
+
+.pieder {
+    padding-right: 3rem;
+}
+.pi {
+    font-size: 35px;
+}
+.ftitle {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.imgrs img {
+    height: 25px;
+    width: 25px;
+}
+.imgrs {
+    display: flex;
+    gap: 15px;
+}
+
+/* movies html */
+
+.firstc1 {
+  padding-top: 11vh;
+  height: 90vh;
+  margin-left: 10px;
+}
+
+/* about us html */
+
+.mainau {
+  padding-top: 10vh;
+  height: 90vh;
+}
+.arribarriba {
+  background-color: gray;
+}
+.arriba {
+  display: flex;
+  align-items: center;
+  background-color: lightblue;
+}
+.text3 {
+  font-size: 25px;
+  background-color: #fad9a6;
+  padding-top: 10px;
+}
+.cry {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.cri  {
+  width: 50%;
+  text-align: center;
+  font-size: 18px;
+}
+.arriba img {
+  width: 50%;
+}
+.abajolittle {
+  display: flex;
+}
